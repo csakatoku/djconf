@@ -1,0 +1,15 @@
+prod:
+  CACHES:
+    default:
+      BACKEND: 'django.core.cache.backends.memcached.MemcachedCache'
+      LOCATION:
+        - "10.32.1.12:11211"
+        - "10.32.1.20:11211"
+        - "10.32.1.28:11211"
+
+default:
+  CACHES:
+    default:
+      BACKEND: 'django.core.cache.backends.memcached.MemcachedCache'
+      LOCATION:
+        - "127.0.0.1:11211"

@@ -1,0 +1,29 @@
+prod:
+  DATABASES:
+    default:
+      ENGINE:   'django.db.backends.mysql'
+      NAME:     'myapp_prod'
+      USER:     'myapp'
+      PASSWORD: 'password'
+      HOST:     '10.32.0.4'
+      PORT:     '3306'
+
+staging:
+  DATABASES:
+    default:
+      ENGINE:   'django.db.backends.mysql'
+      NAME:     'myapp_staging'
+      USER:     'myapp'
+      PASSWORD: 'password'
+      HOST:     '10.32.0.4'
+      PORT:     '3306'
+
+dev:
+  DATABASES:
+    default:
+      ENGINE:   'django.db.backends.mysql'
+      NAME:     'myapp_dev'
+      USER:     'root'
+      PASSWORD: null
+      HOST:     '127.0.0.1'
+      PORT:     '3306'
