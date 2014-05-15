@@ -1,0 +1,11 @@
+*~
+*.pyc
+*.orig
+*.rej
+*.swp
+._*
+\#*
+.\#*
+.DS_Store
+.idea
+nosetests.xml
