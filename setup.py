@@ -25,6 +25,8 @@ Programming Language :: Python
       install_requires=[
           # -*- Extra requirements: -*-
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """)
+      entry_points={
+          'console_scripts': [
+              'djconf-generate = djconf.commands:generate',
+          ]
+      })
